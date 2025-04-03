@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">Registration Form</h2>
+        <form id="registrationForm" class="mt-4">
+            <div class="mb-3">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input type="text" id="fullName" class="form-control" placeholder="Enter your full name" required>
+            </div>
+            <div class="mb-3">
+                <label for="aadhar" class="form-label">Aadhar Number</label>
+                <input type="text" id="aadhar" class="form-control" placeholder="12-digit Aadhar number" required>
+            </div>
+            <div class="mb-3">
+                <label for="pan" class="form-label">PAN Card Number</label>
+                <input type="text" id="pan" class="form-control" placeholder="PAN card number (e.g., ABCDE1234F)" required>
+            </div>
+            <div class="mb-3">
+                <label for="mobile" class="form-label">Mobile Number</label>
+                <input type="text" id="mobile" class="form-control" placeholder="10-digit mobile number" required>
+            </div>
+            <div class="mb-3">
+                <label for="dob" class="form-label">Date of Birth</label>
+                <input type="date" id="dob" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="marks" class="form-label">Marks (Enter marks for 6 subjects separated by commas)</label>
+                <input type="text" id="marks" class="form-control" placeholder="e.g., 85,78,90,88,92,81" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+        <div id="result" class="mt-4"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

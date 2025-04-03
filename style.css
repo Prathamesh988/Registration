@@ -1,0 +1,9 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+#result {
+    font-weight: bold;
+    color: green;
+}
